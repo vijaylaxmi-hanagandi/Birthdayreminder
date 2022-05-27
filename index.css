@@ -1,0 +1,42 @@
+*{
+  margin: 4px;
+  padding: 4px;
+  box-sizing: border-box;
+}
+body{
+  background-color: aqua;
+
+}
+img{
+width: 40px;
+height: 40px;
+border-radius: 70%;
+}
+.container{
+  background-color:yellow;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 40px;
+}
+.container .pic{
+  align-items: center;
+  display: flex;
+  }
+  .container h3{
+    font-size: 45px;
+    color: blueviolet;
+    margin-left: 15px;
+}
+.btn{
+  background-color:blue ;
+  padding: 20px;
+  color: rgb(215, 217, 250);
+  font-family: cursive;
+  border-radius: 50%;
+  cursor: pointer;
+  }
+  .btn:hover{
+    background-color: aqua;
+    color: red;
+  }
